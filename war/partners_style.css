@@ -1,0 +1,459 @@
+body{
+        margin:0px;
+        padding:0px;
+        font-family: arial;
+    }
+    .tryathome_partner_header{
+        background-color: #000000;
+        padding: 90px 0px;
+        text-align: center;
+    }
+    .tryathome_partner_header h4{
+        color: #b2b2b2;
+        margin:0px;
+        letter-spacing: 2px;
+        padding:20px 0px 0px;
+        font-weight: normal;
+    }
+    .tryathome_partners_form_wrapper{
+        width: 960px;
+        margin: 0px auto;
+    }
+    .tryathome_partners_form_holder{
+        width: 430px;
+        margin:0px auto;
+        text-align: center;
+        padding: 50px 0px;
+    }
+    .tryathome_partners_form_holder h5{
+        margin: 0px;
+        color:#b2b2b2;
+    }
+    .tryathome_partners_form_holder p{
+        margin: 0px;
+        color: #b2b2b2;
+        font-size: 15px;
+    }
+    .tryathome_partners_form_holder h3{
+        margin: 0px;
+        color: #000000;
+        padding: 10px 0px 5px;
+        font-size: 17px;
+    }
+    .tryathome_partners_form_holder p b{
+        color: #000000;
+    }
+    .tryathome_partners_form_holder ul{
+        list-style: none;
+        margin: 30px 0px 0px;
+        padding: 0px;
+        display: inline-block;
+    }
+    .tryathome_bankselect_form li{
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 15px;
+        width: 125px;
+        float: left;
+        padding: 35px 22px;
+        border: 1px solid #b2b2b2;
+        margin: 0px 10px;
+        color: #b2b2b2;
+        font-weight: normal;
+        cursor: pointer;
+        height: 35px;
+    }
+    .tryathome_bankselect_form li.active{
+        
+        color: #ffffff;
+        border: 1px solid #000000;
+        background: #000000 url(https://storage.googleapis.com/images2.solestruck.com/gae/newdesign/tick_white.png) no-repeat 70px 25px;
+        padding: 55px 22px 15px;
+    }
+    .clear_both{
+        clear: both;
+    }
+    .error{
+        border: 1px solid #f2646d!important;
+        background-color: #feeff0;
+    }
+    .tryathome_partners_form_holder input[type="text"]{
+        display: block;
+        width: 340px;
+        padding: 25px 10px 10px;
+        font-size: 14px;
+        outline: 0px;
+        margin: 10px 0px;
+        border:1px solid #b2b2b2;
+        border-radius: 0px;
+        -webkit-appearance: none;  /*remove shadow in iOS*/
+        @include border-radius(0);  /*remove border-radius in iOS*/
+        -webkit-border-radius:0;
+    }
+    .tryathome_partners_form_holder input[type="email"]{
+        display: block;
+        width: 340px;
+        padding: 25px 10px 10px;
+        font-size: 14px;
+        outline: 0px;
+        margin: 10px 0px;
+        border:1px solid #b2b2b2;
+        border-radius: 0px;
+        -webkit-appearance: none;  /*remove shadow in iOS*/
+        @include border-radius(0);  /*remove border-radius in iOS*/
+        -webkit-border-radius:0;
+    }
+    .tryathome_partners_form_holder input.tick{
+        background: url(https://storage.googleapis.com/images2.solestruck.com/gae/newdesign/tick_black.png) no-repeat 320px 20px;
+    }
+    .tryathome_partners_form_holder ul li{
+        position: relative;
+    }
+    .tryathome_partners_form_holder ul li span{
+        background-color: #000;
+        color: #fff;
+        font-size: 15px;
+        display: block;
+        padding: 22px 20px;
+        font-weight: bold;
+        margin: 30px 75px 0px;
+        cursor: pointer;
+    }
+    .tryathome_partners_form_holder ul li span a{
+        background-color: #000;
+        color: #fff;
+        font-size: 15px;
+        display: block;
+        padding: 7px 20px;
+        font-weight: bold;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .tryathome_partners_form_holder ul li a{
+        color: #b2b2b2;
+        font-size: 14px;
+        padding: 20px 0px 0px;
+        display: block;
+    }
+    .tryathome_partners_form_holder ul li small{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        font-weight: bold;
+    }
+    .tryathome_bankselect_form1 li{
+        padding: 48px 22px 22px;
+    }
+    hr{
+        margin: 0px;
+        border:1px solid #b2b2b2;
+        border-width: 1px 0px 0px;
+    }
+    .cmn_dropdown{
+        width: 360px;
+        border: 1px solid #b2b2b2;
+        cursor: pointer;
+    }
+    .cmn_dropdown p{
+        margin: 0px;
+        padding: 25px 0px 10px 10px;
+        text-align: left;
+    }
+    .cmn_dropdown code{
+        position: absolute;
+        right: 20px;
+        top: 27px;
+        border-style: dashed dashed solid;
+        border-color: transparent;
+        border-top-color: #000000;
+        border-width: 6px 6px 0px;
+    }
+    .cmn_dropdown ul{
+        display: block;
+        position: absolute;
+        width: 360px;
+        text-align: left;
+        padding: 0px;
+        z-index: 1;
+        background-color: #fff;
+        border: 1px solid red;
+        margin: 0px 0px 0px -1px;
+        min-height: 0px;
+        max-height: 100px;
+        font-size: 14px;
+        overflow-y:scroll; 
+        display: none;
+    }
+    .cmn_dropdown ul li{
+        padding: 5px 10px;
+    }
+    .popup{
+        position: absolute;
+        background-color: #ffffff;
+        width: 700px;
+        left: 50%;
+        margin-left: -450px;
+        text-align: center;
+        padding: 90px 100px;
+        z-index: 2;
+        top: 75px;
+        display: none;
+    }
+    .popup p{
+        margin: 20px 0px;
+        color: #b2b2b2;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .popup p a{ color: #b2b2b2;}
+    .popup h3{
+        margin: 0px;
+        color: #000000;
+        padding: 10px 0px 5px;
+        font-size: 17px;
+    }
+    .popup code{
+        background: url(https://storage.googleapis.com/images2.solestruck.com/gae/newdesign/close_new.png) no-repeat;
+        padding: 20px;
+        cursor: pointer;
+        margin: -71px 0px 0px 420px;
+        position: absolute;
+    }
+    .venmo_details, .country,.back_button, .next_button, .next_btn, .back_btn{display: none;}
+    .back_button{
+        float: left;
+        font-size: 14px;
+        padding: 20px 35px 20px 0px;
+        margin: 40px 0px 0px 105px;
+        background: url(https://storage.googleapis.com/images2.solestruck.com/gae/newdesign/next_arrow.png) no-repeat 40px 20px;
+    }
+    .next_button{
+        float: left;
+        font-size: 14px;
+        padding: 20px 0px 20px 35px;
+        background: url(https://storage.googleapis.com/images2.solestruck.com/gae/newdesign/back_arrow.png) no-repeat 4px 20px;
+        margin: 40px 0px 0px 40px;
+        color: #ccc;
+        font-weight: bold;
+    }
+    .Thanks_holder p{
+        padding: 10px 0px;
+    }
+    .custome_dropdown_holder{
+    	border: 1px solid#b2b2b2;
+		position: relative;
+		cursor: pointer;
+		height: 55px;
+    }
+    .custome_dropdown_holder div{
+    	position: absolute;
+		width: 100%;
+		text-align: left;
+		padding: 25px 0px 13px 10px;
+		cursor: pointer;
+    }
+    .custome_dropdown_holder div code{
+    	position: absolute;
+		right: 20px;
+		top: 27px;
+		border-style: dashed dashed solid;
+		border-color: transparent;
+		border-top-color: #000000;
+		border-width: 6px 6px 0px;
+    }
+    .custome_dropdown_holder select{
+    	position: absolute;
+		height: 55px;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		font-size: 14px;
+		border: 0px;
+		outline: 0px;
+		opacity: 0;
+		-khtml-opacity: 0.0;
+		-moz-opacity:0.0;
+		filter: alpha(opacity=0);
+		-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+		cursor: pointer;
+    }
+     /* .background_bg{
+    	background-color:#000000;
+    	opacity:0.5;
+    	position:absolute;
+    	width:100%;
+    	height:100%;
+    } */
+    .loading_icon{
+    background:url(https://commondatastorage.googleapis.com/images2.solestruck.com/gae/newdesign/images/pageloading.gif) no-repeat;
+    display:none;
+    position: fixed;
+	width: 32px;
+	height: 32px;
+	left: 50%;
+	top: 50%;
+	margin: -16px;
+    }
+    .background_bg{
+    	background:url(https://commondatastorage.googleapis.com/images2.solestruck.com/gae/newdesign/images/popup_bg.png) repeat;
+    	width:100%;
+    	position:absolute;
+    	z-index: 1;
+    }
+/****** for mobile device code start here ******/
+    @media only screen and (max-width : 680px)   {
+        .tryathome_partners_form_wrapper{
+            width: 320px;
+            margin: 0px auto;
+        }
+        .tryathome_partner_header img{
+            width:200px;
+        }
+        .tryathome_partner_header{
+            padding: 70px 0px 50px;
+        }
+        .tryathome_partner_header h4{
+            padding:5px 0px 0px;
+            font-size: 13px;
+        }
+        .tryathome_partners_form_holder{
+            width:320px;
+            padding: 40px 0px;
+        }
+        .tryathome_bankselect_form{
+            margin: 46px 0px 0px !important;
+        }
+        .tryathome_bankselect_form li{
+            font-size: 12px;
+            margin: 0px 5px;
+            width:110px;
+            padding: 40px 15px 30px;
+            height: 30px;
+            font-weight: bold;
+        }
+        .tryathome_partners_form_holder ul{
+            margin: 30px 0px 0px;
+        }
+        .tryathome_partners_form_holder p{
+            font-size: 13px;
+        }
+        .tryathome_partners_form_holder h3{
+            font-size: 15px;
+        }
+        .tryathome_partners_form_holder h5{
+            font-size: 11px;
+            font-weight: normal;
+        }
+        .tryathome_partners_form_holder input[type="text"]{
+            width:290px;
+            font-size: 12px;
+        }
+        .tryathome_partners_form_holder input[type="email"]{
+            width:290px;
+            font-size: 12px;
+        }
+        .cmn_dropdown{
+            width: 310px;
+        }
+        .tryathome_partners_form_holder ul li span{
+            margin: 30px 60px 0px;
+            padding: 18px 16px;
+        }
+        .tryathome_partners_form_holder input.tick{
+            background: url(http://storage.googleapis.com/images2.solestruck.com/gae/newdesign/tick_black.png) no-repeat 285px 20px;
+        }
+        hr{
+            display: none;
+        }
+        .tryathome_partners_form_holder ul li a{
+            padding: 0px;
+            font-size: 12px;
+        }
+        .next_btn{
+            display:block;
+            margin: 55px 80px 0px;
+            padding: 6px 50px;
+            font-size: 14px;
+            cursor: pointer;
+            background: url(http://storage.googleapis.com/images2.solestruck.com/gae/newdesign/next_arrow.png) no-repeat 93px 6px;
+            float: left;
+            text-align: left; 
+        }
+        .back_btn{
+            display: block;
+			margin: 10px 85px 30px;
+			padding: 6px 60px;
+			font-size: 14px;
+			cursor: pointer;
+			background: url(http://storage.googleapis.com/images2.solestruck.com/gae/newdesign/back_arrow.png) no-repeat 35px 6px;
+			float: left;
+			text-align: left;
+			color:#cccccc;
+        }
+        .step2of4, .step2of3, .step3of4, .step_final{
+            display: none;
+        }
+        .back_button{
+            float: left;
+            font-size: 14px;
+            padding: 20px 0px 20px 35px;
+            background: url(http://storage.googleapis.com/images2.solestruck.com/gae/newdesign/back_arrow.png) no-repeat 4px 20px;
+            margin: 40px 0px 0px 40px;
+            color: #ccc;
+            font-weight: normal;
+            cursor: pointer;
+        }
+        .next_button{
+            float: left;
+            font-size: 14px;
+            padding: 20px 35px 20px 0px;
+            margin: 40px 0px 0px 105px;
+            color: #000000;
+            background: url(http://storage.googleapis.com/images2.solestruck.com/gae/newdesign/next_arrow.png) no-repeat 40px 20px;
+            cursor: pointer;
+            
+        }
+         .tryathome_bankselect_form1 li{
+            padding: 45px 15px 25px;
+        }
+        .cmn_dropdown code{
+            top: 26px;
+            right:15px;
+        }
+        .tryathome_partners_form_holder ul li small{
+            font-size: 12px;
+        }
+
+        .popup{
+            border:5px solid #000000;
+            width: 270px;
+            padding:20px;
+            display: block;
+            top: 0px;
+            left: 50%;
+            margin-left:-160px;
+            height: 100%;
+            display:none;
+            word-wrap: break-word;
+        }
+        .popup p{
+            margin: 20px 0px;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .popup h3{
+            padding: 30px 0px 5px;
+            font-size: 15px;
+        }
+        .popup code{
+            background: url(http://storage.googleapis.com/images2.solestruck.com/gae/newdesign/close_new.png) no-repeat;
+            padding: 20px;
+            cursor: pointer;
+            margin: 0px 0px 0px 130px;
+            position: absolute;
+        }
+        .back_button, .next_button{
+        display:block;
+        }
+
+    }
